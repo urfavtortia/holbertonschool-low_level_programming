@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 /**
@@ -10,8 +11,8 @@ int main(void)
 
 	srand(time(0));
 	if (n >= 0)
-		cout << n << " is positive";
+		cout << n << printf(" is positive\n)";
 	else
-		cout << n << " is negative";
+		cout << n << printf(" is negative\n");
 	return (0);
 }
