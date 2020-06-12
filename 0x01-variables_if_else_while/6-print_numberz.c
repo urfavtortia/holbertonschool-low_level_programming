@@ -5,15 +5,12 @@
  */
 int main(void)
 {
-	char ch;
-	int count;
+	char x;
 
-	for (count = 0; count < 10; count++)
-	{
-		ch = getchar();
-		if (ch == '\n')
-		continue;
-		putchar(ch);
-	}
+	for (x = '0'; x <= '9'; x++)
+		putchar(x);
+
+	putchar('\n');
+
 	return (0);
 }
