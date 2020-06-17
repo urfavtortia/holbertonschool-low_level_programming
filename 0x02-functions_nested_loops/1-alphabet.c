@@ -1,21 +1,22 @@
 #include "holberton.h"
 /**
- * main - entry point
+ * main - Entry Point
  *
  * Return: 0
- */
+ */	
 int main(void)
 {
+
 	void print_alphabet(void);
 	{
 		int x;
 
 		for (x = 97; x <= 122; x++)
 		{
-			putchar(x);
+			_putchar(x);
 		}
 
-	putchar('\n');
+	_putchar('\n');
 	}
 
 return (0);
