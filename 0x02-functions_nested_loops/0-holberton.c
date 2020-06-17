@@ -1,10 +1,8 @@
 #include "holberton.h"
 /**
- *
- * main - entry point
+ * main - Entry Point
  *
  * Return: 0
- *
  */
 int main(void)
 {
