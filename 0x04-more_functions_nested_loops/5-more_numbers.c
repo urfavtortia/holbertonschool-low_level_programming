@@ -1,7 +1,8 @@
 #include "holberton.h"
 /**
- * more_numbers - print numbers 0 through 9
- * void: none
+ * more_numbers - prints numbers
+ *
+ * Description: prints numbers 0 through 14
  */
 void more_numbers(void)
 {
@@ -11,12 +12,12 @@ void more_numbers(void)
 	{
 		for (i = 0; i <= 14; i++)
 		{
-			if (i > 10)
+			if (i > 9)
 			{
-				_putchar(i / 10 + '0');
+				_putchar((i / 10) + '0');
 			}
 
-		_putchar(i % 10 + '0');
+		_putchar((i % 10) + '0');
 		}
 
 	_putchar('\n');
