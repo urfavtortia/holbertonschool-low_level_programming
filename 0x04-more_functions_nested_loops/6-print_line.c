@@ -1,9 +1,9 @@
 #include "holberton.h"
 /**
- * print_line - prints line
+ * print_line - prints n length line
  * @n: length
  *
- * Description: prints the "_" character n amount of times
+ * Return: null
  */
 void print_line(int n)
 {
