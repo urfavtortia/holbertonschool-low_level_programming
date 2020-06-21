@@ -2,8 +2,6 @@
 /**
  * print_diagonal - print a diagonal line
  * @n : variable used
- *
- * Return: null
  */
 void print_diagonal(int n)
 {
@@ -22,5 +20,4 @@ void print_diagonal(int n)
 			s = 0;
 		}
 	}
-	return;
 }
