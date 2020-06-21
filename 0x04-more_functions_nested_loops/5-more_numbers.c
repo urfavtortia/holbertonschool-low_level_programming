@@ -1,11 +1,11 @@
 #include "holberton.h"
 /**
  * more_numbers - print numbers 0 through 9
+ * void: none
  */
 void more_numbers(void)
 {
-	int i;
-	int j;
+	int i, j;
 
 	for (j = 0; j <= 9; j++)
 	{
@@ -21,6 +21,4 @@ void more_numbers(void)
 
 	_putchar('\n');
 	}
-
-return;
 }
