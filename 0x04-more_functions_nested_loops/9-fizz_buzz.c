@@ -28,13 +28,13 @@ int main(void)
 		else
 		{
 			printf("%d", x);
-		}	
-		
-			if (x < 100)		
+		}
+
+			if (x < 100)
 				printf(", ");
-	}	
+	}
 
 				printf("\n");
 
-return (0);	
+return (0);
 }
