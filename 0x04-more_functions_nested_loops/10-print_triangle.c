@@ -1,8 +1,9 @@
 #include "holberton.h"
 /**
  * print_triangle - prints a triangle with n length sides
- *
  * @size : size of triangle
+ * Description: print a triangle of size n
+ * Return: 0 for success
  */
 void print_triangle(int size)
 {
@@ -17,14 +18,14 @@ void print_triangle(int size)
 		{
 			for (j = 1; j < (size - i); j++)
 			{
-					_putchar(' ');
+				_putchar(' ');
 			}
 			for (k = j; k <= size; k++)
 			{
 				_putchar('#');
 			}
 
-		_putchar('\n');
+			_putchar('\n');
 		}
 	}
 }
