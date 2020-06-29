@@ -1,16 +1,18 @@
 #include "holberton.h"
 
 /**
-* main - tests function that prints if integer is positive or negative
+* positive_or_negative - tests function that prints if integer is positive or negative
 * Return: 0
 */
 
-int main(void)
+int positive_or_negative(void)
 {
 	int i;
 
-	i = 98;
-	positive_or_negative(i);
-
-	return (0);
+	for (i = 98)
+	{
+		_putchar(i);
+	}
+	
+return (0);
 }
